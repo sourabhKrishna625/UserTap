@@ -1,7 +1,8 @@
-package com.seventhheaven.usertap
+package com.seventhheaven.usertap.UI.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.seventhheaven.usertap.R
 
 class SplashScreenActivity : AppCompatActivity() {
 
