@@ -11,7 +11,9 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".UI.Activities.MainActivity"
-            android:label="@string/title_activity_main"></activity>
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=" Heaven"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity android:name=".UI.Activities.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

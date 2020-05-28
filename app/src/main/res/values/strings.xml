@@ -1,4 +1,16 @@
 <resources>
-    <string name="app_name">UserTap</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Seventh Heaven</string>
+    <string name="Seventh_Heaven">MainActivity</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_offers">Offers</string>
+    <string name="nav_aboutus">About Us</string>
+    <string name="nav_extras">Extras</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="AboutUs_fragment">Hello blank fragment</string>
+    <string name="toolbar_notifications">Notifications</string>
+    <string name="toolbar_location">Location</string>
+    <string name="toolbar_call">Call</string>
 </resources>

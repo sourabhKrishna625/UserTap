@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UI.Activities.MainActivity"/>
+    android:orientation="vertical"
+    android:weightSum="0">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/nav_ActioBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="Seventh Heaven"
+        app:logo="@drawable/ic_launcher">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/Disp_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="588dp"
+            android:layout_weight="1"
+            app:itemBackground="@color/colorPrimary"
+            app:itemIconTint="@color/nav_item_colors"
+            app:itemTextColor="@color/nav_item_colors"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:menu="@menu/nav_items"></com.google.android.material.bottomnavigation.BottomNavigationView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
