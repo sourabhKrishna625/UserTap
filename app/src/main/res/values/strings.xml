@@ -1,5 +1,4 @@
 <resources>
-
     <string name="app_name">Seventh Heaven</string>
     <string name="Seventh_Heaven">MainActivity</string>
     <string name="nav_home">Home</string>
@@ -14,10 +13,4 @@
     <string name="toolbar_notifications">Notifications</string>
     <string name="toolbar_location">Location</string>
     <string name="toolbar_call">Call</string>
-    <string name="Item_Price">Item Price</string>
-    <string name="Item_Name">Item Name</string>
-    <string name="nav_OrderNow">Order Now</string>
-    <string name="nav_Share">Share</string>
-    <string name="coupon_text">Coupon Text</string>
-    <string name="copon_validation">Coupo Validation</string>
 </resources>
