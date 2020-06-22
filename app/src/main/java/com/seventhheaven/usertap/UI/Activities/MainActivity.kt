@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var offersBlankFragment: OffersBlankFragment
     lateinit var aboutUsBlankFragment: AboutUsBlankFragment
     //private lateinit var mPager:ViewPager
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
