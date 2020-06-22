@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var galleryBlankFragment: GalleryBlankFragment
     lateinit var offersBlankFragment: OffersBlankFragment
     lateinit var aboutUsBlankFragment: AboutUsBlankFragment
-    private lateinit var mPager:ViewPager
+    //private lateinit var mPager:ViewPager
 
 
 
